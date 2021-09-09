@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.navbar {
+background-color: #343A40;
+}
+
+.navbar-brand {
+    font-size: 20px;}
+
+
+.navbar-brand:hover, .navbar-dark .navbar-nav a.nav-link:hover {
+        color: white;
+        text-decoration: underline;}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;   
+}
+.portfolio .portfolio-container {
+background-color: #E9ECEF;
+ padding-top: 4vh;
+ padding-left: 20px;
+ padding-bottom: 5vh;
+}
+.portfolio .portfolio-container h1 {display: grid;
+    font-size: 72px;}
+.portfolio .portfolio-container p {font-size: 16px;}
+.portfolio .portfolio-container .btn {margin-left: 15px;}
+
+.cards .cards-container {padding-left: 30px;
+padding-right: 30px;
+padding-top: 20px;}
+
+.cards .cards-container .card {border-width: 1px;}
+
+.cards .card .card-header {height: 45px;
+font-size: 16px;}
+
+.cards .cards-container .card .card-text {margin-bottom: 5px;}
+
+.cards .cards-container .card .btn {margin-top: 10px;}
+
+#YourProfile {max-width: 550px;
+min-width: 400px;
+padding-bottom: 25px;}
+
+#Statistics {max-width: 450px;
+min-width: 400px;
+padding-bottom: 25px;}
+
+.fulltable {padding: 10px 30px 30px 30px;}
+
+.fulltable .table {min-width: 550px;}
+
+.fulltable .table a {color:#007BFF;}
+
+.fulltable .table a:hover {color: #007BFF;;
+    text-decoration: underline;}
+
+#jumbotron {padding: 25px 0px 25px 0px;;
+    margin: 0px;
+}
+
+#jumbotron .lead {color: #6C757D;
+font-size: 16px;
+margin: 0px 0px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Large Devices, Desktops */
+@media screen and (min-width: 992px)
+{.body {width: 100%;}}
+
+
+
+
+/* Medium Devices, Tablets */
+@media screen and (max-width: 991px)
+{#YourProfile {max-width: 400px;
+    padding-bottom: 25px;}
+    
+    #Statistics {max-width: 400px;
+    padding-bottom: 25px;}
+
+}
+
+
+
+/* Estra Small Devices, Phones */
+@media screen and (max-width: 575px)
+{.body {width: 100%;
+max-width: 575px;}
+.portfolio .portfolio-container h1 {
+font-size: 12vw;}
+}
